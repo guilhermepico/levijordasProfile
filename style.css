@@ -50,9 +50,9 @@ header a {
 }
 
 #gbcompany {
-  padding: 1.7rem;
+  padding: 1.7rem 0;
   width: 9rem;
-  height: 100%;
+  
 
   text-align: center;
   display: flex;
@@ -68,12 +68,13 @@ header a {
 }
 
 #guide {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 
   display: flex;
   flex-direction: row;
 
   justify-content: space-between;
+  margin: auto;
 
   text-align: center;
   width: 16rem;
@@ -106,6 +107,7 @@ header a {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  width: 80px;
 }
 
 #contact a {
@@ -170,17 +172,17 @@ h1 {
 
 .profile {
   text-align: center;
-  padding: 2.4rem;
+  
   margin-top: 10rem;
 }
 
 .profile img {
-  width: 15rem;
+  width: 12rem;
 
   border: 3px solid #0d048a;
   border-radius: 50%;
 
-  height: 15rem;
+  height: 12rem;
   background-color: #08034d;
 }
 
@@ -203,7 +205,7 @@ h1 {
 ul {
   margin-top: 10rem;
 
-  text-align: center;
+  
 
   list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="red" cx="7" cy="7" r="2"/></svg>');
 }
@@ -212,7 +214,7 @@ li {
   color: aliceblue;
   margin-top: 2rem;
   font-size: 1.6rem;
-  text-align: center;
+  text-align: left;
 }
 
 footer {
