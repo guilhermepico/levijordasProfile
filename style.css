@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(./assets/bgimg.svg);
+
+  height: 100vh;
+
+  font-family: "IM Fell French Canon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  position: fixed;
+
+  width: 100%;
+  height: 8rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: #08034d;
+}
+
+header a {
+  color: aliceblue;
+
+  text-decoration: none;
+  width: 10rem;
+
+  margin: auto;
+}
+
+.pageone,
+.pagetwo,
+.pagethree {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 3px solid #08034d;
+}
+
+#gbcompany {
+  padding: 1.7rem;
+  width: 9rem;
+  height: 100%;
+
+  text-align: center;
+  display: flex;
+
+  flex-direction: row;
+
+  font-size: 2rem;
+}
+
+#gbcompany a:hover {
+  transition: 0.3s;
+  font-size: 3.2rem;
+}
+
+#guide {
+  font-size: 0.7rem;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  text-align: center;
+  width: 16rem;
+}
+#guide a {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  color: aliceblue;
+  padding: 0 0.2rem;
+
+  margin: auto;
+}
+
+#smim {
+  border-right: 3px solid rgb(165, 5, 5);
+}
+
+#jobb {
+  border-left: 3px solid rgb(165, 5, 5);
+}
+
+#guide a:hover {
+  font-size: 1.7rem;
+  transition: 0.5s;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+#contact a {
+  text-align: center;
+  display: block;
+
+  width: 2rem;
+
+  font-size: 1rem;
+  margin: auto;
+}
+
+#contact a:hover {
+  font-size: 2.9rem;
+  transition: 0.5s;
+}
+
+.leftpage,
+.aboutme,
+.meutrabalho {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+
+  padding: 3rem;
+  text-align: center;
+}
+
+.leftpage p {
+  color: aliceblue;
+  border-left: 3px solid rgb(165, 5, 5);
+  padding: 0 0 0 0.8rem;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+
+h1 {
+  margin: auto;
+
+  color: aliceblue;
+  font-size: 5rem;
+  width: 25rem;
+
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  
+}
+
+#enf {
+  color: #df0606;
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-top: 4rem;
+  border: none;
+  width: 100%;
+}
+
+.profile {
+  text-align: center;
+  padding: 2.4rem;
+  margin-top: 10rem;
+}
+
+.profile img {
+  width: 15rem;
+
+  border: 3px solid #0d048a;
+  border-radius: 50%;
+
+  height: 15rem;
+  background-color: #08034d;
+}
+
+.aboutme p {
+  color: aliceblue;
+  border-left: 3px solid rgb(165, 5, 5);
+  padding: 0 0 0 0.8rem;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  text-align: justify;
+}
+
+.jobimages,
+.aboutmeimg,
+.bgimage {
+  display: none;
+}
+
+
+ul {
+  margin-top: 10rem;
+
+  text-align: center;
+
+  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="red" cx="7" cy="7" r="2"/></svg>');
+}
+
+li {
+  color: aliceblue;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 8.8rem;
+  display: flex;
+  flex-direction: row;
+
+  background-color: #08034d;
+  border-top: 3px solid #08034d;
+  padding: 3rem;
+}
+
+footer p {
+  color: white;
+
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  text-align: center;
+
+  margin: auto;
+}
+
+footer p:hover {
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+#gbco {
+  border-left: 3px solid rgb(165, 5, 5);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  header {
+    position: fixed;
+
+    width: 100%;
+    height: 8rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #08034d;
+
+    padding: 0 6.4rem;
+  }
+
+  header a {
+    color: aliceblue;
+
+    text-decoration: none;
+  }
+
+  .profile {
+    display: none;
+  }
+
+  .pagetwo,
+  .pageone,
+  .pagethree {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-top: 3px solid #08034d;
+  }
+
+  #gbcompany {
+    left: 0;
+    padding: 10px;
+    width: 130px;
+    height: 100%;
+
+    text-align: center;
+    display: flex;
+
+    font-size: 3rem;
+  }
+
+  #gbcompany a:hover {
+    transition: 0.3s;
+    font-size: 2.7rem;
+  }
+
+  #gbcompany a {
+    margin: 5px auto;
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+
+  #guide {
+    font-size: 1.5rem;
+    height: 100%;
+    width: 35rem;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    text-align: center;
+    margin: none;
+  }
+  #guide a {
+    width: 100%;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    color: aliceblue;
+  }
+
+  #guide a:hover {
+    font-size: 1.7rem;
+    transition: 0.5s;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 10rem;
+  }
+
+  #contact a {
+    text-align: center;
+    display: block;
+
+    width: 2rem;
+
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  #contact a:hover {
+    font-size: 2.3rem;
+    transition: 0.5s;
+  }
+
+  .leftpage,
+  .aboutme,
+  .meutrabalho {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    padding: 0 6.4rem;
+  }
+
+  .aboutmeimg {
+    width: 50%;
+    height: 100vh;
+
+    background: url(./assets/duasseringas.PNG) no-repeat top center/cover
+      transparent;
+    background-color: transparent;
+    display: block;
+  }
+
+  .leftpage p {
+    color: aliceblue;
+    border-left: 3px solid rgb(165, 5, 5);
+    padding: 0 0 0 0.8rem;
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 3rem;
+
+    width: 70%;
+  }
+
+  h1 {
+    margin: 27.5rem 0 0 0;
+    color: aliceblue;
+    font-size: 6rem;
+    width: 8rem;
+
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    text-align: left;
+  }
+
+  #enf {
+    color: #df0606;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    border: none;
+  }
+
+  .bgimage {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    background: url(./assets/luva.png) no-repeat top center/cover transparent;
+  }
+
+  #text {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
+  .aboutme p {
+    color: aliceblue;
+    border-left: 3px solid rgb(165, 5, 5);
+    padding: 0 0 0 0.8rem;
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 3rem;
+
+    width: 70%;
+  }
+
+  .jobimages {
+    width: 70%;
+    height: 100vh;
+
+    background: url(./assets/verdeser.PNG) no-repeat top center/cover
+      transparent;
+    background-color: transparent;
+    display: flex;
+  }
+  
+
+  ul {
+    margin-top: 8rem;
+
+    
+
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="red" cx="7" cy="7" r="2"/></svg>');
+  }
+
+  li {
+    color: aliceblue;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  footer {
+    width: 100%;
+    height: 8.8rem;
+
+    background-color: #08034d;
+    border-top: 3px solid #08034d;
+    padding: 3rem;
+  }
+
+  footer p {
+    color: white;
+
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    text-align: center;
+
+    margin: auto;
+    font-size: 1.4rem;
+  }
+
+  footer p:hover {
+    font-size: 1.5rem;
+    transition: 0.5s;
+  }
+}
