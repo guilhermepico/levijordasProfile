@@ -52,7 +52,6 @@ header a {
 #gbcompany {
   padding: 1.7rem 0;
   width: 9rem;
-  
 
   text-align: center;
   display: flex;
@@ -157,8 +156,6 @@ h1 {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-style: normal;
-
-  
 }
 
 #enf {
@@ -172,7 +169,7 @@ h1 {
 
 .profile {
   text-align: center;
-  
+
   margin-top: 10rem;
 }
 
@@ -201,11 +198,8 @@ h1 {
   display: none;
 }
 
-
 ul {
   margin-top: 10rem;
-
-  
 
   list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="red" cx="7" cy="7" r="2"/></svg>');
 }
@@ -367,7 +361,6 @@ footer p:hover {
 
     display: flex;
     flex-direction: column;
-    
 
     padding: 0 6.4rem;
   }
@@ -446,12 +439,9 @@ footer p:hover {
     background-color: transparent;
     display: flex;
   }
-  
 
   ul {
     margin-top: 8rem;
-
-    
 
     list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="red" cx="7" cy="7" r="2"/></svg>');
   }
