@@ -69,7 +69,7 @@ header a {
 }
 
 #guide {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 
   display: flex;
   flex-direction: row;
@@ -85,22 +85,26 @@ header a {
   font-optical-sizing: auto;
   font-style: normal;
 
-  color: aliceblue;
+  color: #08034d;
+  background-color: aliceblue;
   padding: 0 0.2rem;
+  font-size: bold;
 
   margin: auto;
 }
 
 #smim {
+  border-left: 3px solid rgb(165, 5, 5);
   border-right: 3px solid rgb(165, 5, 5);
 }
 
 #jobb {
-  border-left: 3px solid rgb(165, 5, 5);
+  border-right: 3px solid rgb(165, 5, 5);
+  
 }
 
 #guide a:hover {
-  font-size: 1rem;
+  font-size: 0.9rem;
   transition: 0.5s;
 }
 
@@ -170,21 +174,25 @@ h1 {
 }
 
 .profile {
-  text-align: center;
-
-  margin-top: 10rem;
-}
-
-.profile img {
-  width: 17rem;
+  
+  
+  border-radius: 50%;
+  background: url(./assets/luva.png) no-repeat top center/cover #08034d;
+  margin: 9rem auto 0;
+  width: 15.0rem;
+  height: 15.0rem;
 
   border: 2px solid rgb(165, 5, 5);
-  border-radius: 50%;
+}
 
-  padding: 1px;
-
-  height: 17rem;
-  background-image: url(./assets/bgimg.svg);
+#firstimg {
+  background: url(./assets/luva.png) no-repeat top center/cover #08034d;
+}
+#secondimg {
+  background: url(./assets/duasseringas.PNG) no-repeat top center/cover #08034d;
+}
+#lastimg {
+  background: url(./assets/verdeser.PNG) no-repeat top center/cover #08034d;
 }
 
 .aboutme p {
@@ -203,16 +211,16 @@ h1 {
 }
 
 ul {
-  margin-top: 10rem;
+  margin-top: 5rem;
 
-  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="red" cx="7" cy="7" r="2"/></svg>');
 }
 
 li {
   color: aliceblue;
   margin-top: 2rem;
   font-size: 1.6rem;
-  text-align: left;
+  text-align: center;
+  list-style: none;
 }
 
 footer {
@@ -318,10 +326,20 @@ footer p:hover {
 /* Fechar botão (X) */
 .close {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 20px;
+  top: 300px;
+  right: 800px;
+  font-size: 5rem;
   cursor: pointer;
+  
+
+
+}
+
+.close:hover {
+  transition: 0.3s;
+  font-size: 6rem;
+  
+  
 }
 
 /* Animação de fade-in para o Popup */
@@ -418,12 +436,14 @@ footer p:hover {
     font-optical-sizing: auto;
     font-style: normal;
 
-    color: aliceblue;
+    color: #08034d;
+    font-size: 1.7rem;
   }
 
   #guide a:hover {
-    font-size: 1.7rem;
-    transition: 0.5s;
+    font-size: 1.8rem;
+    
+    transition: 0.3s;
   }
 
   #contact {
@@ -445,7 +465,7 @@ footer p:hover {
 
   #contact a:hover {
     font-size: 2.3rem;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   .leftpage,
@@ -538,14 +558,15 @@ footer p:hover {
   ul {
     margin-top: 8rem;
 
-    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="red" cx="7" cy="7" r="2"/></svg>');
-  }
+    
 
   li {
     color: aliceblue;
     margin-top: 2rem;
     font-size: 2rem;
     text-align: left;
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="red" cx="7" cy="7" r="2"/></svg>');
+  }
   }
 
   footer {
@@ -572,6 +593,6 @@ footer p:hover {
 
   footer p:hover {
     font-size: 1.5rem;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 }
