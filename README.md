@@ -8,7 +8,7 @@ Página WEB para informações e contato do Enfermeiro Home Care - Levi.
 
 
 <p align="center">
-  <img alt="Levi Jorda Home Care" src="./svg/GB Company.svg">
+  <img alt="Levi Jorda Home Care" src="./assets/GB Company.png">
 </p>
 
 <br>
