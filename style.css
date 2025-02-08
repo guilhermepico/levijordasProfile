@@ -539,7 +539,7 @@ footer p:hover {
     border-left: 3px solid rgb(165, 5, 5);
     padding: 0 0 0 0.8rem;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-top: 3rem;
 
     width: 70%;
@@ -558,16 +558,16 @@ footer p:hover {
   ul {
     margin-top: 8rem;
 
-    
+  }
 
   li {
     color: aliceblue;
     margin-top: 2rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: left;
     list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="red" cx="7" cy="7" r="2"/></svg>');
   }
-  }
+  
 
   footer {
     width: 100%;
