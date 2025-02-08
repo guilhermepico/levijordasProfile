@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url(./assets/bgimg.svg);
+  background: linear-gradient(90deg, #0f068b, white);
 
   height: 100vh;
 
