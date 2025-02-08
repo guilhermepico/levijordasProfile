@@ -8,7 +8,7 @@ Página WEB para informações e contato do Enfermeiro Home Care - Levi.
 
 
 <p align="center">
-  <img alt="Levi Jorda Home Care" src="./assets/levijoradahomecare.jpg">
+  <img alt="Levi Jorda Home Care" src="./svg/GB Company.svg">
 </p>
 
 <br>
@@ -26,8 +26,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Página WEB para informações e contato do Enfermeiro Home Care - Levi.
-
-## 🔖 Layout
 
 
 ## :memo: Licença
