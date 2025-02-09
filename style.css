@@ -326,18 +326,17 @@ footer p:hover {
 /* Fechar botão (X) */
 .close {
   position: absolute;
-  top: 300px;
-  right: 800px;
+  top: 30rem;
+  right: 60rem;
   font-size: 5rem;
   cursor: pointer;
   
-
 
 }
 
 .close:hover {
   transition: 0.3s;
-  font-size: 6rem;
+  font-size: 5.1rem;
   
   
 }
