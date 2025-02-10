@@ -9,7 +9,7 @@
 }
 
 body {
-  background: linear-gradient(90deg, #0f068b, white);
+  background: linear-gradient(90deg, #0f068b, rgb(167, 199, 247));
 
   height: 100vh;
 
