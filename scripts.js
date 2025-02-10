@@ -1,3 +1,7 @@
+window.onload = function() {
+    document.body.classList.add('loaded');
+}
+
 // Referências aos elementos
 const openPopupBtn = document.getElementById("openPopupBtn");
 const popup = document.getElementById("popup");
@@ -19,6 +23,8 @@ popup.addEventListener("click", (e) => {
         popup.classList.remove("show");
     }
 });
+
+
 
     
 
